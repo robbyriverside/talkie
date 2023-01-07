@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build -o talkie -v -i cmd/main.go 
+
+  test:
+    cmds:
+      - go test -v
+
+      
